@@ -61,6 +61,7 @@ header {
   width: 100%;
   height: 60px;
   background: #0852A5;
+  border-bottom: 2px solid #FFEF08;
 }
 
 .bg {
@@ -69,6 +70,7 @@ header {
   background-image: url("images/viking_ship_background_medium.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  border-bottom: 2px solid #FFEF08;
 }
 
 .main-display h1 {
@@ -85,6 +87,7 @@ header {
   width: 100%;
   height: 100px;
   background-color: #333333;
+  border-bottom: 2px solid #FFEF08;
 }
 
 .subheader h3 {
@@ -103,6 +106,7 @@ header {
   font-weight: 700;
   padding-top: 13px;
   color: #0852A5;
+  border-bottom: 2px solid #FFEF08;
 }
 
 .header-title {
@@ -233,6 +237,7 @@ footer {
   width: auto;
   height: 200px;
   background-color: #333333;
+  border-top: 2px solid #FFEF08;
   text-align: center;
 }
 
