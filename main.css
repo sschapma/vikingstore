@@ -1,0 +1,232 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Styles */
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  color: #FFEF08;
+  background-color: #0852A5;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  background: #0852A5;
+}
+
+.bg {
+  width: 100%;
+  height: 450px;
+  background-image: url("images/viking_ship_background_medium.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.main-display h1 {
+  font-size: 150px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 150px;
+   -webkit-text-fill-color: #0852A5; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 8px;
+   -webkit-text-stroke-color: #FFEF08;
+}
+
+.subheader {
+  width: 100%;
+  height: 100px;
+  background-color: #333333;
+}
+
+.subheader h3 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.description {
+  width: 100%;
+  height: 50px;
+  background-color: #eff0e3;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding-top: 13px;
+  color: #0852A5;
+}
+
+.header-title {
+  float: left;
+  padding-left: 60px;
+  padding-top: 18px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.cart {
+  float:right;
+  padding-right: 60px;
+  vertical-align: center;
+}
+
+.cart a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cart a:hover {
+  text-decoration: underline;
+}
+
+.cart img {
+  height: 40px;
+  width: 40px;
+  padding-top: 10px;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.grid {
+  width: 80%;
+  margin-left: 15%;
+}
+
+.col-1-3 {
+  display: inline-block;
+  text-align: center;
+  width: 300px;
+  height: 350px;
+  background-color: #333333;
+  margin: 10px;
+}
+
+.col-1-3 img {
+  margin-left: 5px;
+  height: 260px;
+  width: 240px;
+}
+
+.col-1-3 h4 {
+  font-weight: 700;
+  padding: 3px;
+}
+
+.btn {
+    background-color: #0852A5;
+    border: 2px solid #FFEF08;
+    padding: 15px 32px;
+    margin-top: 6px;
+    text-align: center;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #FFEF08;
+}
+
+.btn:hover {
+    background-color: #FFEF08;
+}
+
+.btn:hover a {
+    color: #0852A5;
+}
+
+/* Pagination */
+.pagination {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 600px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 45px;
+  font-size: 24px;
+}
+
+/* footer */
+
+footer {
+  width: auto;
+  height: 200px;
+  background-color: #333333;
+  text-align: center;
+}
+
+footer img {
+  height: 30px;
+  width: 30px;
+}
+
+footer h5 {
+  font-size: 30px;
+  font-weight: 700;
+}
