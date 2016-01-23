@@ -154,6 +154,7 @@ header {
 }
 
 .col-1-3 {
+  position: relative;
   display: inline-block;
   text-align: center;
   width: 300px;
@@ -163,6 +164,7 @@ header {
 }
 
 .col-1-3 img {
+
   margin-left: 5px;
   height: 260px;
   width: 240px;
@@ -197,6 +199,19 @@ header {
 
 .btn:hover a {
     color: #0852A5;
+}
+
+.price {
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 5px;
+    background-color: #0852A5;
+    border: 2px solid #FFEF08;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
 /* Pagination */
