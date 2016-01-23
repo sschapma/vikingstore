@@ -50,7 +50,7 @@ table {
 /* Styles */
 
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Fjalla One', arial, sans-serif;
   font-size: 18px;
   color: #FFEF08;
   background-color: #0852A5;
@@ -75,9 +75,9 @@ header {
 
 .transbox {
   padding-bottom: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin: auto;
-  width: 90%;
+  width: 75%;
   background-color: #0852A5;
   border: 1px solid black;
   opacity: 0.9;
